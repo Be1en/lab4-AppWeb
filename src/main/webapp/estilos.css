@@ -1,0 +1,36 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 22/09/2023, 03:01:24 PM
+    Author     : valer
+*/
+/* Estilo para la tabla */
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo para el encabezado de la tabla */
+.styled-table thead {
+  background-color: #fff;
+  color: #333;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 8px;
+  text-align: left;
+}
+
+/* Estilo para las filas pares e impares */
+.styled-table tbody tr:nth-child(even) {
+  background-color: #faedb4;
+}
+
+.styled-table tbody tr:nth-child(odd) {
+  background-color:#dcfcf5;
+}
+
